@@ -10,21 +10,16 @@ CCF registration competition!
 A brief description of the competition motivation, format, and next steps is below
 Motivation
 
-The Allen Mouse Common Coordinate Framework (CCF) defines anatomical locations within an annotated population averaged mouse brain. This resource is already valuable to the field, providing a 3D reference framework for the mouse brain. Enhanced impact is possible if new 3D datasets can be routinely aligned into the CCF space. This enables comparison of results across experiments with a common and objective reference for mouse brain anatomy. Large-scale resources can be built systematically by leveraging automated alignment into a common spatial framework.
+The [Allen Mouse Common Coordinate Framework](https://community.brain-map.org/t/allen-mouse-ccf-accessing-and-using-related-data-and-tools/359) (CCF) defines anatomical locations within an annotated population averaged mouse brain. This resource is already valuable to the field, providing a 3D reference framework for the mouse brain. Enhanced impact is possible if new 3D datasets can be routinely aligned into the CCF space. This enables comparison of results across experiments with a common and objective reference for mouse brain anatomy. Large-scale resources can be built systematically by leveraging automated alignment into a common spatial framework.
 
 Achieving this vision requires robust alignment of new image data into the CCF space, regardless of acquisition modality. The field has produced many options for this task, but unbiased comparison of these techniques does not exist. To benchmark various approaches, and to encourage researchers to share available resources, we propose the Allen Institute for Brain Science organize a competition between CCF alignment tools sourced from the global neuroscience and image processing community.
 
-Competition Format
+## Competition Format
 
-The Allen Institute for Brain Science will provide image datasets drawn from existing data production pipelines. These may include:
+The Allen Institute for Brain Science will provide the following image datasets:
 
-Serial sectioning two photon tomography datasets from the Allen Mouse Connectivity Atlas
-
-Optical projection tomography datasets from the Neuropixels pipeline
-
-fMOST datasets from the whole-brain morphology project
-
-Single-plane slice images with fluorescent nuclear stain from the in-vitro single cell characterization pipeline
+* Optical projection tomography datasets from the Neuropixels pipeline
+* fMOST datasets from the whole-brain morphology project
 
 Examples of each type with validated annotations are readily available. Further types of annotated data may be sourced from Allen Institute or Brain Initiative Cell Census Network (BICCN)-affiliated projects.
 
