@@ -19,7 +19,14 @@ Achieving this vision requires robust alignment of new image data into the CCF s
 The Allen Institute for Brain Science will provide the following image datasets:
 
 * Optical projection tomography datasets from the Neuropixels pipeline
+
+(To-do: add details)
+
 * fMOST datasets from the whole-brain morphology project
+
+(To-do: add details)
+
+
 
 Examples of each type with validated annotations are readily available. Further types of annotated data may be sourced from Allen Institute or Brain Initiative Cell Census Network (BICCN)-affiliated projects.
 
