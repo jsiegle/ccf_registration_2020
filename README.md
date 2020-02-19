@@ -2,7 +2,7 @@
 
 In collaboration with the [BRAIN Inititative Cell Census Network](biccn.org) (BICCN), 
 the [Brain Imaging Library](https://www.brainimagelibrary.org/) (BIL), 
-the [Penn Image Computing and Science Lab](PICSL) (http://picsl.upenn.edu/), 
+the [Penn Image Computing and Science Lab](http://picsl.upenn.edu/) (PICSL), 
 we are running the first [Allen Institute for Brain Science](https://portal.brain-map.org/) 
 CCF registration competition! 
 
