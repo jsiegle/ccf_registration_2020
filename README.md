@@ -16,7 +16,7 @@ Achieving this vision requires robust alignment of new image data into the CCF s
 
 ## Competition Format
 
-# About the data
+### About the data
 
 The Allen Institute for Brain Science will provide the following image datasets:
 
@@ -39,7 +39,7 @@ The data is in the following format:
 (To-do: PICSL team to define format and convert the data)
 
 
-# How will the competition be run?
+### How will the competition be run?
 
 For each  dataset, a set of landmarks covering the whole extent of the brain will be indentified by expert anatomists. Type of landmarks include:
 * Pairs of corresponding points between the image dataset and the CCF
@@ -65,11 +65,11 @@ To submit a result, a participant will
 
 Once we received the pull request, we will compute registration score and post in on the scoreboard.
 
-# Deformation field format
+### Deformation field format
 
 (To-do: Penn team to define the deformation field format)
 
-# Registration scoring
+### Registration scoring
 
 (To-do: Penn team to code registration scoring method )
 (To-do: Penn / BIL team to setup how to run the scoring at BIL) 
@@ -77,6 +77,6 @@ Once we received the pull request, we will compute registration score and post i
 
 Competition start is tentatively scheduled for summer 2020. We will release details regarding datasets, scoring, and entrance details as they become available.
 
-# Save the date!
+## Save the date!
 
 We will have a workshop at the [Neuroinformatics 2020 Congress in Seattle](https://neuroinformatics.incf.org/) in Aug 17-18, 2020 
