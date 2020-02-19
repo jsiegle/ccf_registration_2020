@@ -16,6 +16,7 @@ Achieving this vision requires robust alignment of new image data into the CCF s
 
 ## Competition Format
 
+# What is the data?
 The Allen Institute for Brain Science will provide the following image datasets:
 
 * Optical projection tomography datasets from the Neuropixels pipeline
@@ -26,7 +27,7 @@ The Allen Institute for Brain Science will provide the following image datasets:
 
 (To-do: add details)
 
-
+# How will the competition be run?
 
 Examples of each type with validated annotations are readily available. Further types of annotated data may be sourced from Allen Institute or Brain Initiative Cell Census Network (BICCN)-affiliated projects.
 
