@@ -16,29 +16,67 @@ Achieving this vision requires robust alignment of new image data into the CCF s
 
 ## Competition Format
 
-# What is the data?
+# About the data
+
 The Allen Institute for Brain Science will provide the following image datasets:
 
 * Optical projection tomography datasets from the Neuropixels pipeline
 
-(To-do: add details)
+(To-do: add details - Josh)
 
 * fMOST datasets from the whole-brain morphology project
 
-(To-do: add details)
+(To-do: add details - Julie)
+
+The datasets can be access through BIL:
+
+(To-do: BIL to setup site in BIL )
+(To-do: Rusty to upload data)
+(To-do: instruction on how to download - BIL)
+
+The data is in the following format:
+
+(To-do: PICSL team to define format and convert the data)
+
 
 # How will the competition be run?
 
-Examples of each type with validated annotations are readily available. Further types of annotated data may be sourced from Allen Institute or Brain Initiative Cell Census Network (BICCN)-affiliated projects.
+For each  dataset, a set of landmarks covering the whole extent of the brain will be indentified by expert anatomists. Type of landmarks include:
+* Pairs of corresponding points between the image dataset and the CCF
+* Points that are within in specific structures in the CCF
+* Points that are on the surface between two structures in the CCF
 
-Training sets including data and annotations will be released to competitors ahead of submission deadline. Additional competition test data will be released but annotations withheld by the organizers for results evaluation. Data will be deposited in a cloud storage location accessible to prospective competitors.
+(To-do: Penn team to define the landmark format)
+(To-do: Lydia/Julie to figure out fMOST data)
+(To-do: Rusty/Josh to format the OPT data)
 
-Competitors will provide a cloud environment capable of command line execution of their submitted code. The organizers will be responsible for executing each submitted software within its environment and measuring performance. Evaluation criteria will be released prior to the competition and will include global and local alignment accuracy, execution time (both unsupervised and supervised), and robustness to data and parameter inputs. Organizers will publish competitor’s performance comparisons in a peer-reviewed, open-access journal as well as on the Allen Institute website.
+Example landmarks will be provided to participants as reference. The rest are withheld and used for scoring the registration quality.
 
-Next Steps
+To submit a result, a participant will
+- start a pull request
+- create a new submission page using the template
+- provide information about their team and methods
+- provide links to the registration code (source code or product page)
+- For each imageset:
+    - Scripts and parameters that was used to produce
+    - Upload the deformation field that maps a image point to the CCF in the format described below
+    - Add location of the deformation field
+- Submit pull request
+
+Once we received the pull request, we will compute registration score and post in on the scoreboard.
+
+# Deformation field format
+
+(To-do: Penn team to define the deformation field format)
+
+# Registration scoring
+
+(To-do: Penn team to code registration scoring method )
+(To-do: Penn / BIL team to setup how to run the scoring at BIL) 
+(To-do: Rusty to update the score board)
 
 Competition start is tentatively scheduled for summer 2020. We will release details regarding datasets, scoring, and entrance details as they become available.
 
-If you have a potential entry, feel free to start work on code optimization and documentation. All code must be executable by the organizers in a cloud environment.
+# Save the date!
 
-Be sure to keep an eye on this page for updates regarding the competition format and timing. Looking forward to a competition that benefits all of those using the CCF!
+We will have a workshop at the [Neuroinformatics 2020 Congress in Seattle](https://neuroinformatics.incf.org/) in Aug 17-18, 2020 
