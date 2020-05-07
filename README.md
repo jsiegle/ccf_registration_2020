@@ -22,7 +22,7 @@ The Allen Institute for Brain Science will provide the following image datasets:
 
 #### Optical projection tomography datasets from the Neuropixels pipeline
 
-<img src="images/opt_pipeline_overview.png" width="800" />
+<img src="images/opt_pipeline_overview.png" width="650" />
 
 The Allen Institute has been using Neuropixels probes, a new type of silicon probe, to record spiking activity across the mouse visual system. In a typical experiment, we use 6 probes to simultaneously monitor hundreds of neurons, each of which needs to be registered to a specific point in the CCF. Our Neuropixels dataset is described at [brain-map.org](https://portal.brain-map.org/explore/circuits/visual-coding-neuropixels) and in [this preprint](https://www.biorxiv.org/content/10.1101/805010v1). 
 
