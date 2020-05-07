@@ -20,15 +20,27 @@ Achieving this vision requires robust alignment of new image data into the CCF s
 
 The Allen Institute for Brain Science will provide the following image datasets:
 
-* Optical projection tomography datasets from the Neuropixels pipeline
+#### Optical projection tomography datasets from the Neuropixels pipeline
 
-(To-do: add details - Josh)
+![OPT pipeline overview](images/opt_pipeline_overview.png)
 
-* fMOST datasets from the whole-brain morphology project
+The Allen Institute has been using Neuropixels probes, a new type of silicon probe, to record spiking activity across the mouse visual system. In a typical experiment, we use 6 probes to simultaneously monitor hundreds of neurons, each of which needs to be registered to a specific point in the CCF. Our Neuropixels dataset is described at [brain-map.org](https://portal.brain-map.org/explore/circuits/visual-coding-neuropixels) and in [this preprint](https://www.biorxiv.org/content/10.1101/805010v1). 
+
+To determine the location of our recordings, we coat the probes in a fluorescent dye. After the experiment, we clear the brain and image it using the [AIBSOPT](https://github.com/alleninstitute/aibsopt) optical projection tomography system. This method has lower resolution than TissueCyte (around 10 microns), but provides isotropic sampling in all 3 dimensions. This is helpful for identifying the probe tracks, which are only 70 microns wide.
+
+Each brain is currently being registered to the CCF through manual keypoint selection. This method works reasonably well, but is time consuming and subject to operator bias. An automated registration method that meets or exceeds human accuracy would greatly improve our overall workflow.
+
+Some of the challenges of implementing a fully automated registration method for OPT volumes include:
+* Unique tissue contrast profile for OPT, which means algorithms developed for serial 2-photon tomography do not automatically transfer
+* Air bubbles in the sample create dark spots that can obscure important structures
+* Probe tracks cause tissue damage that is visible in the transmitted light volume
+* Common computed tomography artifacts, such as beam hardening, must be distinguished from the underlying anatomy
+
+#### fMOST datasets from the whole-brain morphology project
 
 (To-do: add details - Julie)
 
-The datasets can be access through BIL:
+### Dataset access (through BIL)
 
 (To-do: BIL to setup site in BIL )
 (To-do: Rusty to upload data)
